@@ -54,10 +54,11 @@ h2 {
     margin: 0 auto;     /* centra horizontalmente */
 
      .item{
-    border:5px solid #77ff00;
+    border:5px solid  hsl(28, 100%, 49%);
     font-size:2rem;
 }
 }
+
 
 
 
