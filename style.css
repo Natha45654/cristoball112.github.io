@@ -52,7 +52,13 @@ h2 {
 
     max-width: 500px;   /* limita el ancho */
     margin: 0 auto;     /* centra horizontalmente */
+
+     .item{
+    border:5px solid #77ff00;
+    font-size:2rem;
 }
+}
+
 
 
 
