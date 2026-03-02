@@ -35,4 +35,14 @@ h2 {
     overflow: hidden;
     box-shadow: 0 0 40px #f293ff;
     animation: glow-border 1.5% infinite alternate;
+
+    .contenedor7{   /*con minmax las columnas cambiaran de ancho entre ese rango*/
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: minmax(100px, 200px) minmax(100px, 300px) minmax(100px, 200px);
+    grid-template-rows: repeat(3, auto);    	/*repite 3 veces, una por renglon - auto no define un alto fijo, sino que se ajusta al contenido*/
+
+    
 }
+
