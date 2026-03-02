@@ -34,7 +34,7 @@ h2 {
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 40px #f293ff;
-    animation: glow-border 1.5% infinite alternate;
+   animation: glow-border 1.5s infinite alternate;
 }
  .contenedor7{
     border: 5px solid #e1bee7;
@@ -53,8 +53,7 @@ h2 {
     max-width: 800px;   /* limita el ancho */
     margin: 0 auto;     /* centra horizontalmente */
 }
-    
-}
+
 
 
 
